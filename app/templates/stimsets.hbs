@@ -1,0 +1,22 @@
+<h2>List of stimulus sets </h2>
+
+<ul>
+  {{#each model as |stimset|}}
+    <li>{{stimset}}</li>
+  {{/each}}
+</ul>
+
+<p> each stimset should be clickable and activate the corresponding 
+page. (ie. search & return all stimuli from that set) Example: </p>
+
+<ul>
+    <li><a href="/cbmovies">CBMovies</a></li>
+</ul>
+
+<p>The current list of stimsets should be scraped from OSF? Currently hard-coded in stimsets.js</p>
+
+<p> This page should also give the citation of the stimulus set, and probably link directly to the corresponding OSF repository if people want to get over to the project page (i.e. to learn general info about how the authors made it, what it was for, etc.)</p>
+
+
+
+{{outlet}}
